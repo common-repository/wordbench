@@ -1,0 +1,62 @@
+.wb-form-tab {
+	padding: 8px;
+	border-top: 1px solid #DFDFDF;
+	border-left: 1px solid #DFDFDF;
+	border-right: 1px solid #DFDFDF;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	background-image: -webkit-linear-gradient(top,#ececec,#dfdfdf);
+	text-decoration: none;
+}
+
+.wb-form-tab.current {
+	text-decoration: underline;
+	background-image: -webkit-linear-gradient(top,#f9f9f9,#ececec);
+}
+
+.wb-form-table {
+	width: 100%;
+}
+
+.wb-form-table thead th,
+.wb-form-table tbody th {
+	text-align: left;
+}
+
+.wb-form-table th.snap,
+.wb-form-table td.snap {
+	width: 1px;
+	white-space: nowrap;
+}
+
+.wb-form-table td.description {
+	font-style: italic;
+}
+
+.wb-form-table label {
+	display: inline;
+	font-weight: inherit;
+}
+
+#wb-fields-table td {
+	vertical-align: top;
+}
+
+#wb-fields-table textarea {
+	width: 100%;
+}
+
+.form-wrap input[type="checkbox"],
+.form-wrap input[type="radio"] {
+	display: inline;
+}
+
+ul.radio {
+	width: 100%;
+	overflow: hidden;
+}
+
+ul.radio li {
+	float: left;
+	margin-right: 1em;
+}
